@@ -1540,3 +1540,26 @@ function sidebarOptions() {
   document.body.classList.toggle('dsn-show-sidebar');
 }
 //# sourceMappingURL=custom.js.map
+
+
+
+// Custom Js for Scroll of Header of Homepage
+
+// Select the header and the video-mask elements
+const header = document.getElementById('dsn_header');
+const videoMask = document.getElementById('video-mask');
+
+window.addEventListener('scroll', () => {
+  // Get the height of the header
+  const headerHeight = header.offsetHeight;
+
+  // Check the current scroll position
+  const scrollPosition = window.scrollY;
+
+  // Add or remove the 'hidden' class based on the scroll position
+  if (scrollPosition > headerHeight) {
+    videoMask.style.display = 'none';
+  } else {
+    videoMask.style.display = 'block';
+  }
+});

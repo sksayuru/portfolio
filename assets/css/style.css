@@ -1712,7 +1712,7 @@ a:hover, a:active {
 
 .main-brand img,
 .dsnload__img img {
-  width: 80px;
+  width: 130px;
   max-width: 100%;
   height: auto;
 }
@@ -2547,7 +2547,7 @@ a:hover, a:active {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(7, 1fr);
-  will-change: transform, filter;
+  /* will-change: transform, filter; */
 }
 .brightness .row__item {
   position: relative;
@@ -7388,3 +7388,11 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   letter-spacing: 2px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.dsn_bg {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.129) 1px, transparent 1px) !important;
+  background-size: 10px 10px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+}

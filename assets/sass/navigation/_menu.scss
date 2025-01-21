@@ -10,7 +10,7 @@
   background-color: rgba(0, 0, 0, 0.40);
   border-radius: 50px;
   transition-property: background-color, padding-top, padding-bottom, transform;
-  transition-duration: 0.5s;
+  transition-duration: 0.1s;
   z-index: 97;
 
   &:not(.dsn-open){
@@ -96,7 +96,7 @@
 .dsnload__img {
 
   img {
-    width: 80px;
+    width: 120px;
     max-width: 100%;
     height: auto;
   }
