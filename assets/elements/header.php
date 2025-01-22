@@ -73,7 +73,7 @@
         <!-- ========== Menu ========== -->
         <header id="site_menu_header" class="site-header d-none">
             <div class="main-logo">
-                <a href="index.php" data-dsn-text="EXFOLIO" class="custom-logo-link main-brand effect-ajax" rel="home"
+                <a href="index.php" data-dsn-text="HOME" class="custom-logo-link main-brand effect-ajax" rel="home"
                     aria-current="page">
                     <img src="assets/img/logo-light.png" class="custom-logo logo-light" alt="Home" />
                     <img src="assets/img/logo.png" class="custom-logo logo-dark" alt="Home" />

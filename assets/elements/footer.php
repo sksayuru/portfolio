@@ -51,10 +51,10 @@
                             <div class="d-grid grid-md-3 align-items-center">
                                 <div class="links">
                                     <ul class="d-flex">
-                                        <li><a href="#">HOME</a></li>
-                                        <li><a href="#">ABOUT</a></li>
-                                        <li><a href="#">WORK</a></li>
-                                        <li><a href="#">CONTACT</a></li>
+                                        <li><a title="Home" href="index.php">HOME</a></li>
+                                        <li><a title="Works" href="work.php">WORKS</a></li>
+                                        <li><a title="About" href="about.php">ABOUT</a></li>
+                                        <li><a title="Contact" href="contact.php">CONTACT</a></li>
                                     </ul>
                                 </div>
 

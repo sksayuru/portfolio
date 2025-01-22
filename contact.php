@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
 
-    <title>MexDot - Ajax Portfolio Showcase HTML Template</title>
+    <title>Contact Us</title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -31,7 +31,7 @@
             <header class="header-page v-dark-head dsn-header-animation pb-80 p-relative">
 
                 <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
-                    <img class="cover-bg-img" src="assets/img/bg.svg" alt="">
+                    <!-- <img class="cover-bg-img" src="assets/img/bg.svg" alt=""> -->
                 </div>
 
                 <div class="p-relative container dsn-hero-parallax-title h-100">
@@ -44,7 +44,7 @@
 
                             <div class="contact-links d-flex flex-column w-50 mt-50">
                                 <a href="#"
-                                    class="sm-title-block text-upper d-flex justify-content-between align-items-center">marketing@example.com
+                                    class="sm-title-block text-upper d-flex justify-content-between align-items-center">sksayuru@gmail.com
                                     <span class="icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                             <path
@@ -54,7 +54,7 @@
                                     </span>
                                 </a>
                                 <a href="#"
-                                    class="sm-title-block text-upper d-flex justify-content-between align-items-center">office@example.com
+                                    class="sm-title-block text-upper d-flex justify-content-between align-items-center">+94 76 998 9940
                                     <span class="icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                             <path
@@ -128,7 +128,7 @@
                                     <div class="box-title background-section has-border-radius p-relative over-hidden">
                                         <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0"
                                             data-overlay="7">
-                                            <img class="cover-bg-img" src="assets/img/bg.svg" alt="">
+                                            <!-- <img class="cover-bg-img" src="assets/img/bg.svg" alt=""> -->
                                         </div>
                                         <h2 class="title text-upper p-relative">Let's Work Together</h2>
                                     </div>
@@ -136,21 +136,20 @@
                                     <div class="info background-section has-border-radius p-relative over-hidden">
                                         <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0"
                                             data-overlay="7">
-                                            <img class="cover-bg-img" src="assets/img/bg.svg" alt="">
+                                            <!-- <img class="cover-bg-img" src="assets/img/bg.svg" alt=""> -->
                                         </div>
 
                                         <div class="p-relative">
                                             <div class="mb-20">
-                                                <h4 class="title-block mb-15">Business Hours</h4>
+                                                <h4 class="title-block mb-15">Company Contacts</h4>
 
-                                                <p>Monday to Friday: 9 AM - 6 PM<br>Saturday: 10 AM - 4 PM<br>Sunday:
-                                                    Closed
+                                                <p>labsosmin@gmail.com<br>+94 71 998 9941<br>
                                                 </p>
                                             </div>
 
                                             <div class="">
                                                 <h4 class="title-block mb-15">Address</h4>
-                                                <p>26-30 New Damietta,<br>El-Mahalla El-Kubra,<br>LO 12345</p>
+                                                <p>Gangodawila,Nugegoda<br>Sri Lanka<br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -159,7 +158,7 @@
                                 <div
                                     class="box-form background-section p-relative over-hidden box-padding has-border-radius">
                                     <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
-                                        <img class="cover-bg-img" src="assets/img/bg.svg" alt="">
+                                        <!-- <img class="cover-bg-img" src="assets/img/bg.svg" alt=""> -->
                                     </div>
                                     <div class="dsn-form form-box d-flex flex-column p-relative">
                                         <form id="contact-form" class="form w-100" method="post" action="contactform.php"
@@ -201,9 +200,9 @@
                                                 </div>
 
                                                 <div class="d-flex dsn-up w-100">
-                                                    <div class="image-zoom move-circle w-100" data-dsn="parallax">
-                                                        <input class="background-theme w-100" type="submit"
-                                                            value="Send Message">
+                                                    <div class="image-zoom move-circle w-100" data-dsn="parallax" ">
+                                                        <input class=" w-100 sk-btn" type="submit"
+                                                            value="Send Message" style="color: #000 ;background-color: #fff;">
                                                     </div>
                                                 </div>
                                             </div>
@@ -246,12 +245,12 @@
                 </div>
 
                 <!-- ========== Map  ========== -->
-                <div class="map-custom hv-80" data-dsn-lat="51.5073509" data-dsn-len="-0.1277583" data-dsn-zoom="14">
-                </div>
+                <!-- <div class="map-custom hv-80" data-dsn-lat="51.5073509" data-dsn-len="-0.1277583" data-dsn-zoom="14">
+                </div> -->
                 <!-- ========== End Map  ========== -->
 
                 <?php 
-                include 'assets/elements/header.php'; 
+                include 'assets/elements/footer.php'; 
                 ?>
 
             </div>
@@ -261,8 +260,8 @@
     </main>
 
     <!-- ========== Cursor ========== -->
-    <div id="dsn_cursor" class="ball"></div>
-    <div id="dsn_cursor_inner" class="ball"></div>
+    <!-- <div id="dsn_cursor" class="ball"></div>
+    <div id="dsn_cursor_inner" class="ball"></div> -->
     <!-- ========== End Cursor ========== -->
 
 

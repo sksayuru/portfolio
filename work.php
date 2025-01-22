@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
 
-    <title>MexDot - Ajax Portfolio Showcase HTML Template</title>
+    <title>My Works</title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -35,18 +35,18 @@
 
                         <div class="box-content w-100 text-center z-index-1">
 
-                            <h1 class="title text-upper">Recent work</h1>
+                        <h1 class="title-lg text-upper">RECENT WORKS</h1>
 
-                            <div class="breadcrumbs mt-30">
+                            <!-- <div class="breadcrumbs mt-30">
                                 <a class="text-upper" href="#">Home</a>
                                 <span class="breadcrumbs_delimiter"></span>
                                 <span class="theme-color text-upper">Portfolio massonary</span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
 
-                <div class="footer-head w-100 p-relative mt-80 z-index-2">
+                <!-- <div class="footer-head w-100 p-relative mt-80 z-index-2">
                     <div class="dsn-container d-flex justify-content-between">
                         <div class="dsn-btn dsn-btn-shape rotate-icon d-flex">
 
@@ -87,7 +87,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </header>
             <!-- ========== End Header ========== -->
 
@@ -98,36 +98,7 @@
                     <div class="p-relative">
                         <div class="root-posts has-filter">
 
-                            <div class="dsn-filtering z-index-1 p-relative w-100 mb-70 pt-50 pb-50 background-section">
 
-                                <div class="filtering-t w-100">
-                                    <div class="filtering-wrap w-100">
-                                        <div class="filtering w-100">
-                                            <div class="dsn-container">
-                                                <button class="active" data-filter="*" type="button">
-                                                    All
-                                                </button>
-                                                <button type="button" class="dsn-filter-category-production"
-                                                    data-filter=".brand , .category-brand">
-                                                    Brand
-                                                </button>
-                                                <button type="button" class="dsn-filter-category-photography"
-                                                    data-filter=".photography , .category-photography">
-                                                    Photography
-                                                </button>
-                                                <button type="button"
-                                                    class="sm-title-block dsn-filter-category-creative"
-                                                    data-filter=".sports , .category-sports">Sports
-                                                </button>
-                                                <button type="button"
-                                                    class="sm-title-block dsn-filter-category-creative"
-                                                    data-filter=".fashion , .category-fashion">Fashion
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="dsn-container">
                                 <div class="dsn-posts hover-box-item d-grid grid-lg-2 dsn-isotope use-filter"
@@ -159,17 +130,14 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">UX / UI
-                                                            Design</span>
-                                                        <span
-                                                            class="background-section heading-color">Architecture</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Packaging Design</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-1.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Binge x <br> The Iconic <span
-                                                                class="fw-200">©
-                                                                2021</span></a>
+                                                            data-dsn-ajax="work">GorillaBar Website and Packaging Design<span
+                                                                class="fw-200">©2023</span></a>
                                                     </h2>
                                                 </div>
 
@@ -216,16 +184,15 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">Character design
-                                                        </span>
-                                                        <span class="background-section heading-color">Digital Art
-                                                        </span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Backend Design</span>
+                                                    <span class="background-section heading-color">Website Development</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-1.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Me <br> Myself and i <span
-                                                                class="fw-200">© 2024</span></a>
+                                                            data-dsn-ajax="work">ASANO Website Redesign<span
+                                                                class="fw-200">©2022</span></a>
                                                     </h2>
                                                 </div>
 
@@ -261,7 +228,7 @@
                                                     <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z">
                                                     </path>
                                                 </svg>
-                                                <span class="background-section heading-color">2017</span>
+                                                <span class="background-section heading-color">2025</span>
                                             </div>
 
                                             <img src="assets/img/portfolio/project3/1.jpg" class="cover-bg-img"
@@ -273,15 +240,15 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">Photography
-                                                        </span>
-                                                        <span class="background-section heading-color">branding </span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Website Development</span>
+                                                    <span class="background-section heading-color">Dropfunnels</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-3.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">YOUR <br> DREAM CAR <span
-                                                                class="fw-200">© 2024</span></a>
+                                                            data-dsn-ajax="work">FollowUp Website Design<span
+                                                                class="fw-200">©2025</span></a>
                                                     </h2>
                                                 </div>
 
@@ -317,7 +284,7 @@
                                                     <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z">
                                                     </path>
                                                 </svg>
-                                                <span class="background-section heading-color">2022</span>
+                                                <span class="background-section heading-color">2020</span>
                                             </div>
 
                                             <img src="assets/img/portfolio/project4/1.jpg" class="cover-bg-img"
@@ -329,15 +296,14 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">Photography
-                                                        </span>
-                                                        <span class="background-section heading-color">branding </span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Big Commerce</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-4.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">BThe <br> Hills - Nissan <span
-                                                                class="fw-200">© 2019</span></a>
+                                                            data-dsn-ajax="work">Media Duplication Systems Website Redesign<span
+                                                                class="fw-200">©2020</span></a>
                                                     </h2>
                                                 </div>
 
@@ -373,7 +339,7 @@
                                                     <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z">
                                                     </path>
                                                 </svg>
-                                                <span class="background-section heading-color">2022</span>
+                                                <span class="background-section heading-color">2021</span>
                                             </div>
 
                                             <img src="assets/img/portfolio/project5/1.jpg" class="cover-bg-img"
@@ -385,15 +351,14 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">Photography
-                                                        </span>
-                                                        <span class="background-section heading-color">Architecture
-                                                        </span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Landing Pages</span>
+                                                    <span class="background-section heading-color">Website Development</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-5.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Church <br> Copenhagen Denmark</a>
+                                                            data-dsn-ajax="work">NVISO Nitro Landing Pages Design</a>
                                                     </h2>
                                                 </div>
 
@@ -429,7 +394,7 @@
                                                     <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z">
                                                     </path>
                                                 </svg>
-                                                <span class="background-section heading-color">2024</span>
+                                                <span class="background-section heading-color">2021</span>
                                             </div>
 
                                             <img src="assets/img/portfolio/project6/1.jpg" class="cover-bg-img"
@@ -441,16 +406,14 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">Photography
-                                                        </span>
-                                                        <span class="background-section heading-color">Architecture
-                                                        </span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Website Development</span>
+                                                    <span class="background-section heading-color">Shopify</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-6.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">LOST <br> RENDER <span class="fw-200">©
-                                                                2023</span></a>
+                                                            data-dsn-ajax="work">Cleo Nut Butter Website<span class="fw-200">©2021</span></a>
                                                     </h2>
                                                 </div>
 
@@ -486,7 +449,7 @@
                                                     <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z">
                                                     </path>
                                                 </svg>
-                                                <span class="background-section heading-color">2022</span>
+                                                <span class="background-section heading-color">2024</span>
                                             </div>
 
                                             <img src="assets/img/portfolio/project7/1.jpg" class="cover-bg-img"
@@ -498,16 +461,13 @@
                                             <div class="post-info d-flex justify-content-between">
                                                 <div class="">
                                                     <div class="cat d-flex p-0 mb-5">
-                                                        <span class="background-section heading-color">Architecture
-                                                        </span>
-                                                        <span class="background-section heading-color">Interior Design
-                                                        </span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
                                                     </div>
 
                                                     <h2 class="post-title word-wrap d-inline-block title-block">
                                                         <a href="project-7.php" class="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Samokat <br> office <span
-                                                                class="fw-200">© 2021</span></a>
+                                                            data-dsn-ajax="work">TeamsClick Website<span
+                                                                class="fw-200">©2024</span></a>
                                                     </h2>
                                                 </div>
 
@@ -536,7 +496,7 @@
                 <!-- ========== End Portfolio ========== -->
 
                 <?php 
-                include 'assets/elements/header.php'; 
+                include 'assets/elements/footer.php'; 
                 ?>
 
             </div>
@@ -547,8 +507,8 @@
 
 
     <!-- ========== Cursor ========== -->
-    <div id="dsn_cursor" class="ball"></div>
-    <div id="dsn_cursor_inner" class="ball"></div>
+    <!-- <div id="dsn_cursor" class="ball"></div>
+    <div id="dsn_cursor_inner" class="ball"></div> -->
     <!-- ========== End Cursor ========== -->
 
 

@@ -2,6 +2,7 @@
 <html class="no-js" lang="">
 
 <head>
+    <?php //include 'session.php'; ?>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,88 +28,7 @@
         <div id="dsn-scrollbar">
 
             <!-- ========== Header ========== -->
-            <!-- <header id="dsn_header"
-                class="header-personal v-dark-head dsn-header-animation h-100-v dsn-header-animation">
-                <div class="bg-gradient p-absolute w-100 h-100 top-0 left-0"></div>
-                <div class="p-relative dsn-hero-parallax-title h-100-v d-flex  z-index-1">
-                    <div class="p-relative d-flex flex-column justify-content-center w-100  h-100">
-                        <div
-                            class="box-content d-flex flex-column z-index-1 align-items-center text-center dsn-container">
-                            <div id="hero_title">
-                                <h5 class="sub-heading">Hey — I'm</h5>
-                                <h1
-                                    class="ah-headline title-lg clip is-full-width text-upper d-flex justify-content-center">
-                                    Sayuru SK
-                                </h1>
 
-                                <div class="social-box p-relative mt-20">
-                                    <ul class="d-flex justify-content-between gap-50">
-                                        <li><a class="text-upper heading-color sm-title-block" href="#0" target="_blank"
-                                                rel="nofollow noopener noreferrer">Dribbble.</a>
-                                        </li>
-                                        <li class="text-upper heading-color sm-title-block"><a href="#0" target="_blank"
-                                                rel="nofollow noopener noreferrer">Behance.</a>
-                                        </li>
-                                        <li class="text-upper heading-color sm-title-block"><a href="#0" target="_blank"
-                                                rel="nofollow noopener noreferrer">Linkedin.</a>
-                                        </li>
-                                        <li class="text-upper heading-color sm-title-block"><a href="#0" target="_blank"
-                                                rel="nofollow noopener noreferrer">Twitter.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box-img z-index-1 w-100 text-center">
-                    <img src="assets/img/portrait.png" alt="">
-                </div>
-
-                <div class="footer-head w-100 left-0 p-absolute bottom-0 z-index-2 pb-40">
-                    <div class="container d-flex justify-content-between">
-                        <div class="dsn-btn dsn-btn-shape rotate-icon d-flex">
-
-                            <a class="button background-section" href="#page_wrapper" rel="nofollow"
-                                data-dsn-option='{"ease": "power4.inOut" , "duration" : 1.5}'>
-                                <span class="title-btn text-upper p-relative  z-index-1 heading-color"
-                                    data-animate-text="Scroll Down">
-                                    <span>Scroll Down</span>
-                                </span>
-                            </a>
-
-                            <span class="icon background-section">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
-                                    </path>
-                                </svg>
-                            </span>
-
-                        </div>
-
-                        <div class="dsn-btn dsn-btn-shape d-flex">
-
-                            <a class="button background-section effect-ajax" href="contact.php"
-                                data-dsn-text="Contact Mes">
-                                <span class="title-btn text-upper p-relative  z-index-1 heading-color"
-                                    data-animate-text="Contact Me">
-                                    <span>Contact Me</span>
-                                </span>
-                            </a>
-
-                            <span class="icon background-section">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
-                                    </path>
-                                </svg>
-                            </span>
-
-                        </div>
-                    </div>
-                </div>
-            </header> -->
             <?php include 'hero.php'; ?>
             
             <!-- ========== End Header ========== -->
@@ -121,10 +41,9 @@
 
                     <div class="container">
                         <div class="content p-relative">
-                            <h2 class="title text-upper mt-20 dsn-fill">I DESIGN AND BUILD <br> DIGITAL
-                                BEAUTIFUL <br>
-                                DIGITAL EXPERIENCES.</h2>
-
+                            <h2 class="title text-upper mt-20 dsn-fill">BRINGING BRANDS  <br> TO LIFE THROUGH <br>
+                                IMPACTFUL DESIGNS.</h2>
+                                <!-- Bringing brands to life through impactful design. -->
                             <svg class="svg-arrow p-absolute dsn-up" width="168" height="168" viewBox="0 0 168 168"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_2611_728)">
@@ -151,11 +70,12 @@
 
 
                             <div class="w-50 ml-auto">
-                                <p class="max-w570 mt-30  dsn-up">MY PASSION MEETS PRECISION IN EVERY PROJECT.
-                                    With a strong foundation in UI/UX design, web development, and branding, 
-                                    I bring brands to life through engaging, user-friendly designs. 
-                                    Every detail is handcrafted to deliver solutions that resonate with your audience. 
-                                    Let's create something extraordinary together.
+                                <p class="max-w570 mt-30  dsn-up">Crafting exceptional UI/UX designs for brands 
+                                    around the globe. From concept to execution, I deliver innovative 
+                                    and user-friendly experiences that stand out. Collaborating with
+                                     clients from Europe to North America, I offer design and development 
+                                     solutions tailored to your needs—anytime, anywhere. Let's transform 
+                                     ideas into impactful digital realities.
                                 </p>
 
                                 <div class="dsn-up">
@@ -182,7 +102,7 @@
                             </div>
                         </div>
 
-                        <div class="box-brands mt-50 border-top border-bottom dsn-swiper dsn-up"
+                        <!-- <div class="box-brands mt-50 border-top border-bottom dsn-swiper dsn-up"
                             data-dsn-option='{"spaceBetween":30,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":false,"parallax":false,"slidesPerView":5,"speed":1000,"effect":"slide"}'>
                             <div class="d-grid custom-width align-items-center">
                                 <div class="box-title">
@@ -235,7 +155,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
                 <!-- ========== End About Us ========== -->
@@ -258,7 +178,7 @@
                                     <div
                                         class="accordion__question user-no-selection d-flex align-items-center justify-content-between">
                                         <h2 class="title tab-title heading-color text-upper" role="tab" data-tab="0">
-                                            UI/UX</h2>
+                                            UI/UX Design</h2>
 
                                         <div class="icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15"
@@ -274,16 +194,15 @@
                                         data-tab="0">
                                         <div class="d-grid grid-1-half">
                                             <div class="text">
-                                                <p class="title-block text-upper">Our branding services cover every
-                                                    aspect of your brand’s development, from logo creation to voice and
-                                                    style guidelines.</p>
+                                                <p class="title-block text-upper">Creating user-focused designs that elevate 
+                                                    experiences and bring your brand to life through intuitive 
+                                                    interfaces and seamless interactions.</p>
                                             </div>
 
                                             <ul class="text-upper ml-auto body-color">
-                                                <li>CMS Integration</li>
-                                                <li>Motion & Animations</li>
-                                                <li>3D Development</li>
-                                                <li>3D Development</li>
+                                                <li>Website Design</li>
+                                                <li>App Design</li>
+                                                <li>Rebranding</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -293,7 +212,7 @@
                                     <div
                                         class="accordion__question user-no-selection d-flex align-items-center justify-content-between">
                                         <h2 class="title tab-title heading-color text-upper" role="tab" data-tab="0">
-                                            Brand</h2>
+                                            Branding Services</h2>
 
                                         <div class="icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15"
@@ -307,15 +226,14 @@
                                     <div class="accordion__answer tab-description w-100" role="tabpanel" data-tab="0">
                                         <div class="d-grid grid-1-half">
                                             <div class="text">
-                                                <p class="title-block text-upper">Our branding services cover every
-                                                    aspect of your brand’s development, from logo creation to voice and
-                                                    style guidelines.</p>
+                                                <p class="title-block text-upper">Building cohesive brand identities with logos, 
+                                                    style guides, and messaging that resonate and leave a lasting impression.</p>
                                             </div>
 
                                             <ul class="text-upper ml-auto body-color">
-                                                <li>CMS Integration</li>
-                                                <li>Motion & Animations</li>
-                                                <li>3D Development</li>
+                                                <li>Logo Design</li>
+                                                <li>Rebranding</li>
+                                                <li>Marketing</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -325,7 +243,7 @@
                                     <div
                                         class="accordion__question user-no-selection d-flex align-items-center justify-content-between">
                                         <h2 class="title tab-title heading-color text-upper" role="tab" data-tab="0">
-                                            Animation</h2>
+                                            Development Services</h2>
 
                                         <div class="icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15"
@@ -339,15 +257,14 @@
                                     <div class="accordion__answer tab-description w-100" role="tabpanel" data-tab="0">
                                         <div class="d-grid grid-1-half">
                                             <div class="text">
-                                                <p class="title-block text-upper">Our branding services cover every
-                                                    aspect of your brand’s development, from logo creation to voice and
-                                                    style guidelines.</p>
+                                                <p class="title-block text-upper">Transforming your vision into reality with 
+                                                    custom apps and websites tailored to your specifications.</p>
                                             </div>
 
                                             <ul class="text-upper ml-auto body-color">
-                                                <li>CMS Integration</li>
-                                                <li>Motion & Animations</li>
-                                                <li>3D Development</li>
+                                                <li>App Development</li>
+                                                <li>Website Development</li>
+                                                <li>Maintenance</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -390,6 +307,7 @@
                                         <h4 class="title-block mb-5">University of Sri Jayewardenepura</h4>
                                         <p>Bachelors Of Science in Applied Sciences</p>
                                         <p>Statistics, Economics, Mathematics</p>
+                                        <p>Expected Graduation : 2025</p>
                                     </div>
                                 </div>
 
@@ -709,8 +627,7 @@
                                                         </div>
 
                                                         <div class="auther d-flex flex-column justify-content-center">
-                                                            <h5 class="sm-title-block text-upper mb-5">MTL Graphic
-                                                            </h5>
+                                                            <!-- <h5 class="sm-title-block text-upper mb-5">MTL Graphic</h5> -->
                                                             <span class="text-upper">Envato User</span>
                                                         </div>
                                                     </div>
@@ -732,8 +649,7 @@
                                                         </div>
 
                                                         <div class="auther d-flex flex-column justify-content-center">
-                                                            <h5 class="sm-title-block text-upper mb-5">MTL Graphic
-                                                            </h5>
+                                                            <!-- <h5 class="sm-title-block text-upper mb-5">MTL Graphic</h5> -->
                                                             <span class="text-upper">Envato User</span>
                                                         </div>
                                                     </div>
@@ -755,8 +671,7 @@
                                                         </div>
 
                                                         <div class="auther d-flex flex-column justify-content-center">
-                                                            <h5 class="sm-title-block text-upper mb-5">MTL Graphic
-                                                            </h5>
+                                                            <!-- <h5 class="sm-title-block text-upper mb-5">MTL Graphic</h5> -->
                                                             <span class="text-upper">Envato User</span>
                                                         </div>
                                                     </div>
@@ -828,12 +743,12 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-1.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">Binge x The Iconic</a>
+                                                       data-dsn-ajax="work">GorillaBar Website and Packaging Design ©2024</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
                                                     <span class="background-section heading-color">UX / UI Design</span>
-                                                    <span class="background-section heading-color">Architecture</span>
+                                                    <span class="background-section heading-color">Packaging Design</span>
                                                 </div>
 
                                                 <a href="project-1.php"
@@ -871,12 +786,13 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-2.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">Me Myself and i</a>
+                                                       data-dsn-ajax="work">ASANO Website Redesign ©2022</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
-                                                    <span class="background-section heading-color">Character design</span>
-                                                    <span class="background-section heading-color">Digital Art</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Backend Design</span>
+                                                    <span class="background-section heading-color">Website Development</span>
                                                 </div>
 
                                                 <a href="project-2.php"
@@ -914,12 +830,13 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-3.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">YOUR DREAM CAR</a>
+                                                       data-dsn-ajax="work">FollowUp Website Design ©2025</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
-                                                    <span class="background-section heading-color">Photography</span>
-                                                    <span class="background-section heading-color">branding</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Website Development</span>
+                                                    <span class="background-section heading-color">Dropfunnels</span>
                                                 </div>
 
                                                 <a href="project-3.php"
@@ -957,12 +874,12 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-4.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">The Hills - Nissan</a>
+                                                       data-dsn-ajax="work">Media Duplication Systems Website Redesign ©2020</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
-                                                    <span class="background-section heading-color">Photography</span>
-                                                    <span class="background-section heading-color">branding</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Big Commerce</span>
                                                 </div>
 
                                                 <a href="project-4.php"
@@ -1000,12 +917,13 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-5.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">Church Copenhagen Denmark</a>
+                                                       data-dsn-ajax="work">NVISO Nitro Landing Pages Design ©2021</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
-                                                    <span class="background-section heading-color">Photography</span>
-                                                    <span class="background-section heading-color">Architecture</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Landing Pages</span>
+                                                    <span class="background-section heading-color">Website Development</span>
                                                 </div>
 
                                                 <a href="project-5.php"
@@ -1043,12 +961,13 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-6.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">LOST RENDER</a>
+                                                       data-dsn-ajax="work">Cleo Nut Butter Website ©2021</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
-                                                    <span class="background-section heading-color">Photography</span>
-                                                    <span class="background-section heading-color">Architecture</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
+                                                    <span class="background-section heading-color">Website Development</span>
+                                                    <span class="background-section heading-color">Shopify</span>
                                                 </div>
 
                                                 <a href="project-6.php"
@@ -1086,12 +1005,11 @@
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
                                                     <a href="project-7.php" class="effect-ajax init-color"
-                                                       data-dsn-ajax="work">Samokat office</a>
+                                                       data-dsn-ajax="work">TeamsClick Website ©2024</a>
                                                 </h2>
 
                                                 <div class="cat background-main d-flex">
-                                                    <span class="background-section heading-color">Architecture</span>
-                                                    <span class="background-section heading-color">Interior Design</span>
+                                                    <span class="background-section heading-color">UX / UI Design</span>
                                                 </div>
 
                                                 <a href="project-7.php"
@@ -1137,8 +1055,8 @@
     </main>
 
     <!-- ========== Cursor ========== -->
-    <div id="dsn_cursor" class="ball"></div>
-    <div id="dsn_cursor_inner" class="ball"></div>
+    <!-- <div id="dsn_cursor" class="ball" style="border: 2px solid #b80a0a;"></div>
+    <div id="dsn_cursor_inner" class="ball" style="background-color: #b80a0a;"></div> -->
     <!-- ========== End Cursor ========== -->
 
 

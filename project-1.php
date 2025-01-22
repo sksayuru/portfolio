@@ -47,7 +47,7 @@
                                     <span class="text-upper"><span>Designer - </span> Sayuru Karunathilaka</span>
                                 </div>
 
-                                <div class="dsn-btn dsn-btn-shape d-inline-flex d-flex no-padding text-upper">
+                                <!-- <div class="dsn-btn dsn-btn-shape d-inline-flex d-flex no-padding text-upper">
 
                                     <a class="button"
                                         href="https://www.behance.net/gallery/116216459/Binge-x-The-Iconic-Inactivewear?tracking_source=curated_galleries_photography"
@@ -65,7 +65,7 @@
                                         </svg>
                                     </span>
 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
 
@@ -141,34 +141,6 @@
 
             <div id="page_wrapper" class="wrapper">
 
-
-                <!-- <section class="our-work section-margin not-filter dsn-filter "
-                    data-dsn-option='{"speed" : 15 , "start" : "-40px top"}'>
-                    <div class="dsn-container">
-                        <div class="dsn-cards">
-                            <div class="dsn-posts flexibly-hover">
-                                <div class="dsn-item-post grid-item p-relative">
-                                    <div class="box-image-bg w-100 h-500">
-                                        <img src="assets/img/portfolio/project1/2.jpg" class="cover-bg-img" alt="" />
-                                    </div>
-                                </div>
-
-                                <div class="dsn-item-post grid-item p-relative">
-                                    <div class="box-image-bg w-100 h-500">
-                                        <img src="assets/img/portfolio/project1/4.jpg" class="cover-bg-img" alt="" />
-                                    </div>
-                                </div>
-
-                                <div class="dsn-item-post grid-item p-relative">
-                                    <div class="box-image-bg w-100 h-500">
-                                        <img src="assets/img/portfolio/project1/3.jpg" class="cover-bg-img" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-
                 <div class="over-hidden section-margin">
                     <div class="img-box-parallax dsn-animate dsn-effect-down has-popup dsn-active"
                         data-dsn-grid="move-up">
@@ -196,17 +168,49 @@
 
             </div>
 
-            <?php 
-                include 'assets/elements/header.php'; 
-                ?>
-        </div>
+            <section class="next-projects p-relative section-padding d-flex flex-column justify-content-center">
+                <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0 before-z-index" data-overlay="5"
+                    data-dsn-grid="move-up">
+                    <img class="cover-bg-img" src="assets/img/portfolio/project2/1.jpg" alt="">
+                </div>
+                <div class="container p-relative">
+                    <div class="box-content w-100 d-flex flex-column p-relative z-index-1">
+
+                        <a href="project-2.php" class="btn-arrow effect-ajax v-light background-main">
+                            <span class="icon theme-color dsn-icon" data-dsn-iconSize="45px">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+
+                        <h2 class="title-lg text-upper" data-dsn-ajax="title"><a href="project-2.php"
+                                class="effect-ajax">ASANO <br> Website Redesign <span class="fw-200">©2022</span></a></h2>
+
+
+                        <div class="d-flex justify-content-between align-items-center w-100 mt-30">
+                            <div class="cat p-0">
+                            <span class="background-section heading-color">UX / UI Design</span>
+                                    <span class="background-section heading-color">Backend Design</span>
+                                    <span class="background-section heading-color">Website Development</span>
+                            </div>
+
+                            <div class="item">
+                                <span class="text-upper"><span>NEXT - </span> PROJECT</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
     </main>
 
     <!-- ========== Cursor ========== -->
-    <div id="dsn_cursor" class="ball"></div>
-    <div id="dsn_cursor_inner" class="ball"></div>
+    <!-- <div id="dsn_cursor" class="ball"></div>
+    <div id="dsn_cursor_inner" class="ball"></div> -->
     <!-- ========== End Cursor ========== -->
 
 

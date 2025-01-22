@@ -41,7 +41,7 @@
 :root, :root .v-light, :root .v-light-head {
   --bg-color: #F3F3F3;
   --assistant-color: #E9E9E9;
-  --theme-color: #b3de4f;
+  --theme-color: #b80a0a;
   --theme-color-font: #fff;
   --font-color: #5c5c5c;
   --heading-color: #000;
@@ -1164,14 +1164,14 @@ a:hover, a:active {
 .site-header {
   position: fixed;
   top: 30px;
-  left: 30px;
-  right: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  left: 0px;
+  right: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 22px;
   padding-bottom: 22px;
   background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 50px;
+  /* border-radius: 50px; */
   transition-property: background-color, padding-top, padding-bottom, transform;
   transition-duration: 0.5s;
   z-index: 97;
@@ -1712,7 +1712,7 @@ a:hover, a:active {
 
 .main-brand img,
 .dsnload__img img {
-  width: 130px;
+  width: 160px;
   max-width: 100%;
   height: auto;
 }
