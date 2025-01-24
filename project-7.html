@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
 
-    <title>MDS - Project 4</title>
+    <title>TeamsClick - Project 7</title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -21,9 +21,97 @@
 
 <body class="v-dark dsn-ajax">
 
-        <?php 
-        include 'assets/elements/header.php'; 
-        ?>
+<main id="main_root" class="main-root">
+
+        <!-- ========== Menu ========== -->
+        <header id="site_menu_header" class="site-header d-none">
+            <div class="main-logo">
+                <a href="index.html" data-dsn-text="HOME" class="custom-logo-link main-brand effect-ajax" rel="home"
+                    aria-current="page">
+                    <img src="assets/img/logo-light.png" class="custom-logo logo-light" alt="Home" />
+                    <img src="assets/img/logo.png" class="custom-logo logo-dark" alt="Home" />
+                </a>
+            </div>
+            <nav class="main-navigation ">
+                <div class="menu-cover-title header-container dsn-container">MENU</div>
+                <ul id="dsn-primary-list" class="primary-nav h2">
+                    <li class="nav-item has-sub-menu">
+                        <a title="Home" href="index.html">
+                            <span class="overflow ">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-sub-menu">
+                        <a title="Home" href="work.html">
+                            <span class="overflow ">Works</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a title="About" href="about.html">
+                            <span class="overflow">About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a title="Contact" href="contact.html">
+                            <span class="overflow">Contact</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-sub-menu">
+                        <a title="Home" href="#0">
+                            <span class="overflow ">My CV</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="container-content  d-flex flex-column justify-content-center section-margin">
+                    <div class="nav__info">
+                        <div class="nav-content">
+                            <h5 class="sm-title-block mb-10">Studio</h5>
+                            26-30 New Damietta
+                            El-Mahalla El-Kubra, SK1 66LM
+
+                        </div>
+                        <div class="nav-content mt-30">
+                            <h5 class="sm-title-block mb-10">Contact</h5>
+                            <p class="links over-hidden mb-1">
+                                <a class="link-hover d-block" href="tel:00201004392260"
+                                    data-hover-text="+00 (2)012 3321">+00
+                                    (2)01004392260</a>
+                                <a class="link-hover" href="tel:00201024552406" data-hover-text="+00 (2)012 3321">+00
+                                    (2)01024552406</a>
+                            </p>
+                            <p class="links over-hidden"><a class="link-hover" href="mailto:info@dsngrid.com"
+                                    data-hover-text="info@dsngrid.com">info@dsngrid.com</a></p>
+
+                        </div>
+                    </div>
+                  
+                </div>
+            </nav>
+            <div id="navbar_toggle" class="navbar-toggle">
+                <div class="toggle-icon">
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                </div>
+                <div class="toggle-text">
+                    <div class="text-menu">Menu</div>
+                    <div class="text-open">Open</div>
+                    <div class="text-close">Close</div>
+                </div>
+            </div>
+            <div class="bg-load background-main"></div>
+
+            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
+                class="bg-load dsn-svg-transition">
+                <path vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" />
+            </svg>
+
+        </header>
+        <!-- ========== End Menu ========== -->
 
         <div id="dsn-scrollbar">
 
@@ -35,25 +123,23 @@
 
                         <div class="box-content w-100 d-flex flex-column z-index-1">
 
-                            <h1 class="title-lg text-upper" data-dsn-ajax="title">Media Duplication Systems <br> Website Redesign <span class="fw-200">©2020</span></h1>
+                            <h1 class="title-lg text-upper" data-dsn-ajax="title">TeamsClick<br> Website <span class="fw-200">©2024</span></h1>
 
                             <div class="d-flex justify-content-between align-items-center w-100 mt-30">
                                 <div class="cat p-0">
                                     <span class="background-section heading-color">UX / UI Design</span>
-                                    <span class="background-section heading-color">Big Commerce</span>
-                                    <!-- <span class="background-section heading-color">Website Development</span> -->
                                 </div>
 
                                 <div class="item">
-                                    <span class="text-upper"><span>Designer - </span> Sayuru Karunathilaka</span>
+                                    <span class="text-upper"><span>Concept - </span> Sayuru Karunathilaka</span>
                                 </div>
                                 <!-- <div class="item">
                                     <span class="text-upper"><span>Development - </span> OsminLabs</span>
                                 </div> -->
-                                <div class="dsn-btn dsn-btn-shape d-inline-flex d-flex no-padding text-upper">
+                                <!-- <div class="dsn-btn dsn-btn-shape d-inline-flex d-flex no-padding text-upper">
 
                                     <a class="button"
-                                        href="https://mediaduplicationsystems.com"
+                                        href="https://www.cleonutbutter.com"
                                         target="_blank">
                                         <span class="title-btn p-relative  z-index-1" data-animate-text="View project">
                                             <span>Live Demo</span>
@@ -68,7 +154,7 @@
                                         </svg>
                                     </span>
 
-                                </div>
+                                </div> -->
                                 
                             </div>
                         </div>
@@ -80,7 +166,7 @@
                 <div class="pl-30 pr-30">
                     <div class="box-img p-relative before-z-index has-border-radius" data-overlay="7"
                         data-dsn-grid="move-up">
-                        <img class="cover-bg-img has-border-radius" src="assets/img/portfolio/project4/1.jpg" alt="">
+                        <img class="cover-bg-img has-border-radius" src="assets/img/portfolio/project7/1.jpg" alt="">
                     </div>
                 </div>
 
@@ -96,12 +182,12 @@
                             <div class="text pinned-scroll p-relative" data-dsn-option='{"end":"650"}'>
                                 <div class=" pinned-element">
                                     <!-- <span class="sub-heading mb-15">• ART OF HOME</span> -->
-                                    <h3 class="title text-upper mb-30">Media Duplication Systems</h3>
+                                    <h3 class="title text-upper mb-30">TeamsClick</h3>
 
                                     <div class="info">
                                         <div class="info-item d-flex align-items-center border-bottom">
                                             <span class="date">Type</span>
-                                            <h6 class="text-upper">Tech Website Redesign</h6>
+                                            <h6 class="text-upper">Agency Website</h6>
 
                                         </div>
 
@@ -112,7 +198,7 @@
 
                                         <div class="info-item d-flex align-items-center border-bottom">
                                             <span class="date">Year</span>
-                                            <h6 class="text-upper">2020</h6>
+                                            <h6 class="text-upper">2024</h6>
                                         </div>
 
                                         <div class="info-item d-flex align-items-center border-bottom">
@@ -123,20 +209,19 @@
 
                                     </div>
 
-                                    <p class="mt-20">The website for Media Duplication Systems (MDS) 
-                                        was redesigned through a contest on DesignCrowd.com in 2020.
-                                         A clean, professional layout with a modern style was implemented,
-                                          using vibrant purple accents and ample white space to enhance 
-                                          visual appeal. The design highlights MDS’s 30+ years of expertise 
-                                          while ensuring intuitive navigation, clear product categorization, 
-                                          and a seamless user experience.</p>
+                                    <p class="mt-20">The homepage for TeamsClick was designed to showcase the 
+                                        company's expertise in remote IT staffing. Crafted in Figma for a US-based client, 
+                                        the design emphasizes professionalism and user engagement through clean layouts, 
+                                        modern visuals, and intuitive navigation. Key features include service highlights, 
+                                        a clear hiring process, and trust-building elements to effectively connect businesses
+                                         with top-tier remote developers.</p>
                                 </div>
                             </div>
 
                             <div class="box-img">
                                 <div class="d-grid">
                                     <div class="img-item">
-                                        <img class="cover-bg-img" src="assets/img/portfolio/project4/10.jpg" alt="">
+                                        <img class="cover-bg-img" src="assets/img/portfolio/project7/10.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -178,9 +263,9 @@
                     <div class="img-box-parallax dsn-animate dsn-effect-down has-popup dsn-active"
                         data-dsn-grid="move-up">
 
-                        <div class="effect-popup before-z-index h-100" data-src="assets/img/portfolio/project4/5.jpg"
+                        <div class="effect-popup before-z-index h-100" data-src="assets/img/portfolio/project7/5.jpg"
                             data-caption="Caption #3" data-fancybox="_1" data-cursor="open" data-dsn-overlay="0">
-                            <img class="cover-bg-img has-direction" src="assets/img/portfolio/project4/5.jpg" alt="">
+                            <img class="cover-bg-img has-direction" src="assets/img/portfolio/project7/5.jpg" alt="">
                         </div>
                         <div class="cap"><span>Product Display</span></div>
                     </div>
@@ -188,64 +273,28 @@
 
                 <div class="section-margin text-center">
                     <div class="container">
-                        <h3 class="title text-upper mb-30">Intuitive Design, Simplified Experience</h3>
-                        <p class="max-w750">The website for Media Duplication Systems (MDS) was redesigned through a 
-                            contest on DesignCrowd.com in 2020. The project included designing the homepage, 
-                            category pages, contact page, and several other sections. Given the target audience 
-                            of an older generation, the design prioritized simplicity and clarity, ensuring an 
-                            intuitive user experience with minimal distractions.<br><br>
+                        <h3 class="title text-upper mb-30">Seamless Remote IT Staffing with TeamsClick</h3>
+                        <p class="max-w750">The homepage for TeamsClick, designed for a US-based client,
+                             was crafted to position the brand as a trusted partner in remote IT staffing. 
+                             Developed using Figma, the design emphasizes clarity, professionalism, and 
+                             user-centricity. With a modern aesthetic and strategic layout, the website 
+                             highlights TeamsClick's core services, including seamless recruitment,
+                              HR management, and efficient onboarding.<br><br>
 
-                            The interface was crafted with a clean, professional layout, incorporating 
-                            straightforward navigation and accessible elements to accommodate the needs 
-                            of the audience. Vibrant purple accents were paired with ample white space to 
-                            maintain a modern yet uncluttered aesthetic. The typography and design elements
-                             were intentionally kept simple, with a focus on readability and usability.<br><br>
+                            The design features clean typography, engaging visuals, 
+                            and intuitive navigation to deliver a smooth user experience.
+                             Key elements include trust-building sections such as "Why TeamsClick," 
+                             service highlights, and a clear step-by-step process for
+                              hiring top-tier remote developers. The inclusion of FAQs 
+                              and a dedicated call-to-action ensures user engagement and drives conversions.<br><br>
                             
-                            This redesign highlights MDS's legacy of over 30 years as a leader in
-                             media duplication, testing, and recovery solutions while offering an 
-                             accessible and functional platform tailored to its users.</p>
+                            This project showcases a balance between aesthetic appeal 
+                            and functional design, creating a digital platform that 
+                            communicates TeamsClick’s expertise and commitment to connecting 
+                            businesses with skilled IT talent worldwide.</p>
                     </div>
                 </div>
 
-                
-
-                <div class="container p-relative mb-section">
-                    <div class="d-grid grid-sm-3">
-                        <div class="p-relative img-box-parallax before-z-index has-popup">
-                            <div class="effect-popup before-z-index "
-                                data-src="assets/img/portfolio/project4/11.jpg" data-caption="Caption #2"
-                                data-fancybox="_1" data-cursor="open" data-dsn-overlay="0">
-                                <img class="cover-bg-img has-border-radius" src="assets/img/portfolio/project4/11.jpg"
-                                    alt="">
-                            </div>
-                            <div class="cap">
-                                <span>Single Product Page</span>
-                            </div>
-                        </div>
-                        <div class="p-relative img-box-parallax before-z-index has-popup">
-                            <div class="effect-popup before-z-index"
-                                data-src="assets/img/portfolio/project4/12.jpg" data-caption="Caption #3"
-                                data-fancybox="_1" data-cursor="open" data-dsn-overlay="0">
-                                <img class="cover-bg-img has-border-radius" src="assets/img/portfolio/project4/12.jpg"
-                                    alt="">
-                            </div>
-                            <div class="cap">
-                                <span>Category Page</span>
-                            </div>
-                        </div>
-                        <div class="p-relative img-box-parallax before-z-index has-popup">
-                            <div class="effect-popup before-z-index "
-                                data-src="assets/img/portfolio/project4/13.jpg" data-caption="Caption #2"
-                                data-fancybox="_1" data-cursor="open" data-dsn-overlay="0">
-                                <img class="cover-bg-img has-border-radius" src="assets/img/portfolio/project4/13.jpg"
-                                    alt="">
-                            </div>
-                            <div class="cap">
-                                <span>Contact Page</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
             </div>
@@ -253,12 +302,12 @@
             <section class="next-projects p-relative section-padding d-flex flex-column justify-content-center">
                 <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0 before-z-index" data-overlay="5"
                     data-dsn-grid="move-up">
-                    <img class="cover-bg-img" src="assets/img/portfolio/project5/1.jpg" alt="">
+                    <img class="cover-bg-img" src="assets/img/portfolio/project1/1.jpg" alt="">
                 </div>
                 <div class="container p-relative">
                     <div class="box-content w-100 d-flex flex-column p-relative z-index-1">
 
-                        <a href="project-5.php" class="btn-arrow effect-ajax v-light background-main">
+                        <a href="project-1.html" class="btn-arrow effect-ajax v-light background-main">
                             <span class="icon theme-color dsn-icon" data-dsn-iconSize="45px">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                     <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
@@ -267,15 +316,14 @@
                             </span>
                         </a>
 
-                        <h2 class="title-lg text-upper" data-dsn-ajax="title"><a href="project-5.php"
-                                class="effect-ajax">NVISO Nitro<br> Landing Pages <span class="fw-200">©2021</span></a></h2>
+                        <h2 class="title-lg text-upper" data-dsn-ajax="title"><a href="project-1.html"
+                                class="effect-ajax">GorillaBar <br> Website Design <span class="fw-200">©2024</span></a></h2>
 
 
                         <div class="d-flex justify-content-between align-items-center w-100 mt-30">
                             <div class="cat p-0">
                                 <span class="background-section heading-color">UX / UI Design</span>
-                                    <span class="background-section heading-color">Landing Pages</span>
-                                    <span class="background-section heading-color">Website Development</span>
+                                    <span class="background-section heading-color">Packaging Design</span>
                             </div>
 
                             <div class="item">

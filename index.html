@@ -2,7 +2,6 @@
 <html class="no-js" lang="">
 
 <head>
-    <?php //include 'session.php'; ?>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,15 +20,172 @@
 </head>
 <body class="v-dark dsn-ajax">
 
-        <?php 
-        include 'assets/elements/header.php'; 
-        ?>
+    <main id="main_root" class="main-root">
+
+        <!-- ========== Menu ========== -->
+        <header id="site_menu_header" class="site-header d-none">
+            <div class="main-logo">
+                <a href="index.html" data-dsn-text="HOME" class="custom-logo-link main-brand effect-ajax" rel="home"
+                    aria-current="page">
+                    <img src="assets/img/logo-light.png" class="custom-logo logo-light" alt="Home" />
+                    <img src="assets/img/logo.png" class="custom-logo logo-dark" alt="Home" />
+                </a>
+            </div>
+            <nav class="main-navigation ">
+                <div class="menu-cover-title header-container dsn-container">MENU</div>
+                <ul id="dsn-primary-list" class="primary-nav h2">
+                    <li class="nav-item has-sub-menu">
+                        <a title="Home" href="index.html">
+                            <span class="overflow ">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-sub-menu">
+                        <a title="Home" href="work.html">
+                            <span class="overflow ">Works</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a title="About" href="about.html">
+                            <span class="overflow">About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a title="Contact" href="contact.html">
+                            <span class="overflow">Contact</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-sub-menu">
+                        <a title="Home" href="#0">
+                            <span class="overflow ">My CV</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="container-content  d-flex flex-column justify-content-center section-margin">
+                    <div class="nav__info">
+                        <div class="nav-content">
+                            <h5 class="sm-title-block mb-10">Studio</h5>
+                            26-30 New Damietta
+                            El-Mahalla El-Kubra, SK1 66LM
+
+                        </div>
+                        <div class="nav-content mt-30">
+                            <h5 class="sm-title-block mb-10">Contact</h5>
+                            <p class="links over-hidden mb-1">
+                                <a class="link-hover d-block" href="tel:00201004392260"
+                                    data-hover-text="+00 (2)012 3321">+00
+                                    (2)01004392260</a>
+                                <a class="link-hover" href="tel:00201024552406" data-hover-text="+00 (2)012 3321">+00
+                                    (2)01024552406</a>
+                            </p>
+                            <p class="links over-hidden"><a class="link-hover" href="mailto:info@dsngrid.com"
+                                    data-hover-text="info@dsngrid.com">info@dsngrid.com</a></p>
+
+                        </div>
+                    </div>
+                  
+                </div>
+            </nav>
+            <div id="navbar_toggle" class="navbar-toggle">
+                <div class="toggle-icon">
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                    <div class="toggle-line"></div>
+                </div>
+                <div class="toggle-text">
+                    <div class="text-menu">Menu</div>
+                    <div class="text-open">Open</div>
+                    <div class="text-close">Close</div>
+                </div>
+            </div>
+            <div class="bg-load background-main"></div>
+
+            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
+                class="bg-load dsn-svg-transition">
+                <path vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" />
+            </svg>
+
+        </header>
+        <!-- ========== End Menu ========== -->
 
         <div id="dsn-scrollbar">
 
             <!-- ========== Header ========== -->
 
-            <?php include 'hero.php'; ?>
+            <header id="dsn_header" class="v-dark-head dsn-header-animation h-100-v dsn-header-animation dsn_bg">
+                <div class="container p-relative h-100-v d-flex  z-index-1">
+                    <div class="p-relative d-flex flex-column justify-content-center w-100  h-100  hero-text">
+
+                    <div class="box-content d-flex flex-column" style="z-index: 5;">
+                        <h2 class="title-lg text-upper">FUTURE</h2>
+                        <div class="w-80 description-inner d-flex align-items-end justify-content-center">
+                            <h3 class="title-lg text-upper mt-20">REIMAGINED</h3>
+                        </div>
+                    </div>
+
+                        <div class="box-content d-flex flex-column z-index-1 align-items-center justify-content-center dsn-container">
+                            
+                            <div id="box-image text-center">
+                                
+                                <div id="video-mask">
+                                    <video muted autoplay loop>
+                                    <source src="video.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-head w-100 left-0 p-absolute bottom-0 z-index-2 pb-40">
+                    <div class="container d-flex justify-content-between">
+                        <div class="dsn-btn dsn-btn-shape rotate-icon d-flex">
+
+                            <a class="button background-section" href="#page_wrapper" rel="nofollow"
+                                data-dsn-option='{"ease": "power4.inOut" , "duration" : 1.5}'>
+                                <span class="title-btn text-upper p-relative  z-index-1 heading-color"
+                                    data-animate-text="Scroll Down">
+                                    <span>Scroll Down</span>
+                                </span>
+                            </a>
+
+                            <span class="icon background-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
+                                    </path>
+                                </svg>
+                            </span>
+
+                        </div>
+
+                        <div class="dsn-btn dsn-btn-shape d-flex">
+
+                            <a class="button background-section effect-ajax" href="contact.html"
+                                data-dsn-text="Contact Mes">
+                                <span class="title-btn text-upper p-relative  z-index-1 heading-color"
+                                    data-animate-text="Contact Me">
+                                    <span>Contact Me</span>
+                                </span>
+                            </a>
+
+                            <span class="icon background-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
+                                    </path>
+                                </svg>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+            
+            </header>
             
             <!-- ========== End Header ========== -->
 
@@ -81,7 +237,7 @@
                                 <div class="dsn-up">
                                     <div class="dsn-btn dsn-btn-shape d-flex mt-30 ">
 
-                                        <a class="button background-main v-dark effect-ajax" href="about.php">
+                                        <a class="button background-main v-dark effect-ajax" href="about.html">
                                             <span class="title-btn text-upper p-relative  z-index-1 heading-color"
                                                 data-animate-text="About Me">
                                                 <span>About Me</span>
@@ -314,7 +470,7 @@
                                 <div class="dsn-up">
                                     <div class="dsn-btn dsn-btn-shape d-flex">
 
-                                        <a class="button background-main v-dark effect-ajax" href="contact.php">
+                                        <a class="button background-main v-dark effect-ajax" href="contact.html">
                                             <span class="title-btn text-upper p-relative  z-index-1 heading-color"
                                                 data-animate-text="Contact me">
                                                 <span>Contact me</span>
@@ -742,7 +898,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-1.php" class="effect-ajax init-color"
+                                                    <a href="project-1.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">GorillaBar Website and Packaging Design ©2024</a>
                                                 </h2>
 
@@ -751,7 +907,7 @@
                                                     <span class="background-section heading-color">Packaging Design</span>
                                                 </div>
 
-                                                <a href="project-1.php"
+                                                <a href="project-1.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -785,7 +941,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-2.php" class="effect-ajax init-color"
+                                                    <a href="project-2.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">ASANO Website Redesign ©2022</a>
                                                 </h2>
 
@@ -795,7 +951,7 @@
                                                     <span class="background-section heading-color">Website Development</span>
                                                 </div>
 
-                                                <a href="project-2.php"
+                                                <a href="project-2.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -829,7 +985,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-3.php" class="effect-ajax init-color"
+                                                    <a href="project-3.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">FollowUp Website Design ©2025</a>
                                                 </h2>
 
@@ -839,7 +995,7 @@
                                                     <span class="background-section heading-color">Dropfunnels</span>
                                                 </div>
 
-                                                <a href="project-3.php"
+                                                <a href="project-3.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -873,7 +1029,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-4.php" class="effect-ajax init-color"
+                                                    <a href="project-4.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">Media Duplication Systems Website Redesign ©2020</a>
                                                 </h2>
 
@@ -882,7 +1038,7 @@
                                                     <span class="background-section heading-color">Big Commerce</span>
                                                 </div>
 
-                                                <a href="project-4.php"
+                                                <a href="project-4.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -916,7 +1072,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-5.php" class="effect-ajax init-color"
+                                                    <a href="project-5.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">NVISO Nitro Landing Pages Design ©2021</a>
                                                 </h2>
 
@@ -926,7 +1082,7 @@
                                                     <span class="background-section heading-color">Website Development</span>
                                                 </div>
 
-                                                <a href="project-5.php"
+                                                <a href="project-5.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -960,7 +1116,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-6.php" class="effect-ajax init-color"
+                                                    <a href="project-6.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">Cleo Nut Butter Website ©2021</a>
                                                 </h2>
 
@@ -970,7 +1126,7 @@
                                                     <span class="background-section heading-color">Shopify</span>
                                                 </div>
 
-                                                <a href="project-6.php"
+                                                <a href="project-6.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -1004,7 +1160,7 @@
 
                                             <div class="post-info d-flex justify-content-between align-items-center">
                                                 <h2 class="post-title word-wrap d-inline-block title-block">
-                                                    <a href="project-7.php" class="effect-ajax init-color"
+                                                    <a href="project-7.html" class="effect-ajax init-color"
                                                        data-dsn-ajax="work">TeamsClick Website ©2024</a>
                                                 </h2>
 
@@ -1012,7 +1168,7 @@
                                                     <span class="background-section heading-color">UX / UI Design</span>
                                                 </div>
 
-                                                <a href="project-7.php"
+                                                <a href="project-7.html"
                                                    class="dsn-btn dsn-btn-shape d-flex effect-ajax">
                                                     <span class="icon background-section">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -1043,9 +1199,85 @@
 
 
 
-                <?php 
-                include 'assets/elements/footer.php'; 
-                ?>
+                <section class="next-page v-dark pt-section pb-50">
+                    <div class="container">
+                        <div class="tob-box d-flex justify-content-between align-items-end border-bottom pb-50 mb-50">
+                            <h2 class="title text-upper">Ready to <br> begin? </h2>
+
+                            <div class="dsn-btn dsn-btn-shape d-flex">
+
+                                <a class="button background-main v-light effect-ajax" href="contact.html">
+                                    <span class="title-btn p-relative  z-index-1 heading-color"
+                                        data-animate-text="Let's talk!">
+                                        <span>Let's talk!</span>
+                                    </span>
+                                </a>
+
+                                <span class="icon background-main v-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path
+                                            d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
+                                        </path>
+                                    </svg>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container over-hidden">
+                        <div class="bottom-box ">
+                            <div class="d-flex gap-10 justify-content-between flex-wrap">
+                                <div class="info-item">
+                                    <h6 class="mb-10">Email Address</h6>
+                                    <a class="text-upper" href="#">sksayuru@gmail.com</a>
+                                </div>
+
+                                <div class="info-item">
+                                    <h6 class="mb-10">Whatsapp (Business)</h6>
+                                    <a class="text-upper" href="#">+94 71 998 9941</a>
+                                </div>
+
+                                <div class="info-item">
+                                    <h6 class="mb-10">Instagram</h6>
+                                    <a class="text-upper" href="#">sksayuru</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <footer class="footer-personal v-light mt-50">
+                            <div class="d-grid grid-md-3 align-items-center">
+                                <div class="links">
+                                    <ul class="d-flex">
+                                        <li><a title="Home" href="index.html">HOME</a></li>
+                                        <li><a title="Works" href="work.html">WORKS</a></li>
+                                        <li><a title="About" href="about.html">ABOUT</a></li>
+                                        <li><a title="Contact" href="contact.html">CONTACT</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dsn-logo main-logo d-flex align-items-center justify-content-center">
+                                    <div class="main-logo">
+                                        <a href="#" class="custom-logo-link main-brand effect-ajax">
+                                            <img class="custom-logo logo-light" src="assets/img/logo-light.png" alt="">
+                                            <img class="custom-logo logo-dark" src="assets/img/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="copyright">
+                                    <p class="over-hidden">
+                                        ©2025 All Rights Reserved.
+                                        <a href="#0" class="link-hover" data-hover-text="DSN Grid" target="_blank">OsminLabs</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
 
             </div>
 
@@ -1053,12 +1285,6 @@
 
 
     </main>
-
-    <!-- ========== Cursor ========== -->
-    <!-- <div id="dsn_cursor" class="ball" style="border: 2px solid #b80a0a;"></div>
-    <div id="dsn_cursor_inner" class="ball" style="background-color: #b80a0a;"></div> -->
-    <!-- ========== End Cursor ========== -->
-
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/plugins.min.js"></script>

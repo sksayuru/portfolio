@@ -21,9 +21,97 @@
 
 <body class="v-dark dsn-ajax">
 
-        <?php 
-        include 'assets/elements/header.php'; 
-        ?>
+<main id="main_root" class="main-root">
+
+<!-- ========== Menu ========== -->
+<header id="site_menu_header" class="site-header d-none">
+    <div class="main-logo">
+        <a href="index.html" data-dsn-text="HOME" class="custom-logo-link main-brand effect-ajax" rel="home"
+            aria-current="page">
+            <img src="assets/img/logo-light.png" class="custom-logo logo-light" alt="Home" />
+            <img src="assets/img/logo.png" class="custom-logo logo-dark" alt="Home" />
+        </a>
+    </div>
+    <nav class="main-navigation ">
+        <div class="menu-cover-title header-container dsn-container">MENU</div>
+        <ul id="dsn-primary-list" class="primary-nav h2">
+            <li class="nav-item has-sub-menu">
+                <a title="Home" href="index.html">
+                    <span class="overflow ">Home</span>
+                </a>
+            </li>
+
+            <li class="nav-item has-sub-menu">
+                <a title="Home" href="work.html">
+                    <span class="overflow ">Works</span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a title="About" href="about.html">
+                    <span class="overflow">About</span>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a title="Contact" href="contact.html">
+                    <span class="overflow">Contact</span>
+                </a>
+            </li>
+
+            <li class="nav-item has-sub-menu">
+                <a title="Home" href="#0">
+                    <span class="overflow ">My CV</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="container-content  d-flex flex-column justify-content-center section-margin">
+            <div class="nav__info">
+                <div class="nav-content">
+                    <h5 class="sm-title-block mb-10">Studio</h5>
+                    26-30 New Damietta
+                    El-Mahalla El-Kubra, SK1 66LM
+
+                </div>
+                <div class="nav-content mt-30">
+                    <h5 class="sm-title-block mb-10">Contact</h5>
+                    <p class="links over-hidden mb-1">
+                        <a class="link-hover d-block" href="tel:00201004392260"
+                            data-hover-text="+00 (2)012 3321">+00
+                            (2)01004392260</a>
+                        <a class="link-hover" href="tel:00201024552406" data-hover-text="+00 (2)012 3321">+00
+                            (2)01024552406</a>
+                    </p>
+                    <p class="links over-hidden"><a class="link-hover" href="mailto:info@dsngrid.com"
+                            data-hover-text="info@dsngrid.com">info@dsngrid.com</a></p>
+
+                </div>
+            </div>
+          
+        </div>
+    </nav>
+    <div id="navbar_toggle" class="navbar-toggle">
+        <div class="toggle-icon">
+            <div class="toggle-line"></div>
+            <div class="toggle-line"></div>
+            <div class="toggle-line"></div>
+        </div>
+        <div class="toggle-text">
+            <div class="text-menu">Menu</div>
+            <div class="text-open">Open</div>
+            <div class="text-close">Close</div>
+        </div>
+    </div>
+    <div class="bg-load background-main"></div>
+
+    <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
+        class="bg-load dsn-svg-transition">
+        <path vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" />
+    </svg>
+
+</header>
+<!-- ========== End Menu ========== -->
 
         <div id="dsn-scrollbar">
 
@@ -233,9 +321,85 @@
                 <!-- ========== End Service========== -->
 
 
-                <?php 
-                include 'assets/elements/footer.php'; 
-                ?>
+                <section class="next-page v-dark pt-section pb-50">
+                    <div class="container">
+                        <div class="tob-box d-flex justify-content-between align-items-end border-bottom pb-50 mb-50">
+                            <h2 class="title text-upper">Ready to <br> begin? </h2>
+
+                            <div class="dsn-btn dsn-btn-shape d-flex">
+
+                                <a class="button background-main v-light effect-ajax" href="contact.html">
+                                    <span class="title-btn p-relative  z-index-1 heading-color"
+                                        data-animate-text="Let's talk!">
+                                        <span>Let's talk!</span>
+                                    </span>
+                                </a>
+
+                                <span class="icon background-main v-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path
+                                            d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
+                                        </path>
+                                    </svg>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container over-hidden">
+                        <div class="bottom-box ">
+                            <div class="d-flex gap-10 justify-content-between flex-wrap">
+                                <div class="info-item">
+                                    <h6 class="mb-10">Email Address</h6>
+                                    <a class="text-upper" href="#">sksayuru@gmail.com</a>
+                                </div>
+
+                                <div class="info-item">
+                                    <h6 class="mb-10">Whatsapp (Business)</h6>
+                                    <a class="text-upper" href="#">+94 71 998 9941</a>
+                                </div>
+
+                                <div class="info-item">
+                                    <h6 class="mb-10">Instagram</h6>
+                                    <a class="text-upper" href="#">sksayuru</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <footer class="footer-personal v-light mt-50">
+                            <div class="d-grid grid-md-3 align-items-center">
+                                <div class="links">
+                                    <ul class="d-flex">
+                                        <li><a title="Home" href="index.html">HOME</a></li>
+                                        <li><a title="Works" href="work.html">WORKS</a></li>
+                                        <li><a title="About" href="about.html">ABOUT</a></li>
+                                        <li><a title="Contact" href="contact.html">CONTACT</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dsn-logo main-logo d-flex align-items-center justify-content-center">
+                                    <div class="main-logo">
+                                        <a href="#" class="custom-logo-link main-brand effect-ajax">
+                                            <img class="custom-logo logo-light" src="assets/img/logo-light.png" alt="">
+                                            <img class="custom-logo logo-dark" src="assets/img/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="copyright">
+                                    <p class="over-hidden">
+                                        ©2025 All Rights Reserved.
+                                        <a href="#0" class="link-hover" data-hover-text="DSN Grid" target="_blank">OsminLabs</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
 
             </div>
 
@@ -244,11 +408,6 @@
 
 
     </main>
-    <!-- ========== Cursor ========== -->
-    <!-- <div id="dsn_cursor" class="ball"></div>
-    <div id="dsn_cursor_inner" class="ball"></div> -->
-    <!-- ========== End Cursor ========== -->
-
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/plugins.min.js"></script>
