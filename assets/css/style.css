@@ -7418,8 +7418,8 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 margin: auto;
--webkit-mask-image: url(mask.png);
-mask-image: url(mask.png);
+-webkit-mask-image: url(/assets/img/mask.png);
+mask-image: url(/assets/img/mask.png);
 mask-size: contain;
 }
 
