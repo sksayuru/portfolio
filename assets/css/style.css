@@ -7391,7 +7391,7 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 
 
 .dsn_bg {
-  /* background-image: radial-gradient(circle, rgba(255, 255, 255, 0.129) 1px, transparent 1px) !important; */
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.129) 1px, transparent 1px) !important;
   background-size: 10px 10px !important;
   background-color: #000 !important;
   color: #fff !important;
