@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
 
-    <title>Contact Us</title>
+    <title>Contact Me</title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -66,30 +66,7 @@
             </li>
         </ul>
 
-        <div class="container-content  d-flex flex-column justify-content-center section-margin">
-            <div class="nav__info">
-                <div class="nav-content">
-                    <h5 class="sm-title-block mb-10">Studio</h5>
-                    26-30 New Damietta
-                    El-Mahalla El-Kubra, SK1 66LM
-
-                </div>
-                <div class="nav-content mt-30">
-                    <h5 class="sm-title-block mb-10">Contact</h5>
-                    <p class="links over-hidden mb-1">
-                        <a class="link-hover d-block" href="tel:00201004392260"
-                            data-hover-text="+00 (2)012 3321">+00
-                            (2)01004392260</a>
-                        <a class="link-hover" href="tel:00201024552406" data-hover-text="+00 (2)012 3321">+00
-                            (2)01024552406</a>
-                    </p>
-                    <p class="links over-hidden"><a class="link-hover" href="mailto:info@dsngrid.com"
-                            data-hover-text="info@dsngrid.com">info@dsngrid.com</a></p>
-
-                </div>
-            </div>
-          
-        </div>
+        
     </nav>
     <div id="navbar_toggle" class="navbar-toggle">
         <div class="toggle-icon">
@@ -128,7 +105,7 @@
                         <div class="box-content d-flex flex-column z-index-1">
 
 
-                            <h1 class="title-lg text-upper">CONTACT US</h1>
+                            <h1 class="title-lg text-upper">CONTACT ME</h1>
 
                             <div class="contact-links d-flex flex-column w-50 mt-50">
                                 <a href="#"
@@ -243,14 +220,13 @@
                                     </div>
                                 </div>
 
-                                <div
-                                    class="box-form background-section p-relative over-hidden box-padding has-border-radius">
+                                <div class="box-form background-section p-relative over-hidden box-padding has-border-radius">
                                     <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
                                         <!-- <img class="cover-bg-img" src="assets/img/bg.svg" alt=""> -->
                                     </div>
                                     <div class="dsn-form form-box d-flex flex-column p-relative">
-                                        <form id="contact-form" class="form w-100" method="post" action="contactform.html"
-                                            data-toggle="validator">
+                                        <form id="contact-form" class="form w-100" action="https://api.web3forms.com/submit" method="POST">
+                                            <input type="hidden" name="access_key" value="9dea9353-7a72-42e6-a0f8-d1adf9c527d7">
                                             <div class="messages"></div>
                                             <div class="input__wrap controls">
                                                 <div class="d-grid" data-dsn-gap="0px 30px">
@@ -288,10 +264,11 @@
                                                 </div>
 
                                                 <div class="d-flex dsn-up w-100">
-                                                    <div class="image-zoom move-circle w-100" data-dsn="parallax" ">
+                                                    <div class="image-zoom move-circle w-100" data-dsn="parallax">
                                                         <input class=" w-100 sk-btn" type="submit"
                                                             value="Send Message" style="color: #000 ;background-color: #fff;">
                                                     </div>
+                                                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
                                                 </div>
                                             </div>
                                         </form>

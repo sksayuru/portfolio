@@ -7391,7 +7391,7 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 
 
 .dsn_bg {
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.129) 1px, transparent 1px) !important;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px) !important;
   background-size: 10px 10px !important;
   background-color: #000 !important;
   color: #fff !important;
@@ -7464,11 +7464,14 @@ line-height: 1.5;
 /* 404 Styles */
 
 .box {
-  width: 400px;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Optional: Center vertically within the container */
+  align-items: center; /* Optional: Center horizontally */
   height: 70%;
   max-height: 600px;
   min-height: 450px;
-  background: #000;
+  /* background: #000; */
   border-radius: 20px;
   position: absolute;
   left: 50%;
@@ -7658,7 +7661,7 @@ line-height: 1.5;
 .box .box__description .box__description-container {
   color: #fff;
   text-align: center;
-  width: 200px;
+  /* width: 200px; */
   font-size: 16px;
   margin: 0 auto;
 }
